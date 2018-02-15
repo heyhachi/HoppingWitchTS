@@ -1,0 +1,115 @@
+{
+	"width": 512,
+	"height": 384,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"button_back": {
+			"type": "image",
+			"width": 128,
+			"height": 48,
+			"path": "image/button_back.png"
+		},
+		"button_start": {
+			"type": "image",
+			"width": 128,
+			"height": 48,
+			"path": "image/button_start.png"
+		},
+		"font16": {
+			"type": "image",
+			"width": 256,
+			"height": 96,
+			"path": "image/font16.png"
+		},
+		"gameover": {
+			"type": "image",
+			"width": 352,
+			"height": 64,
+			"path": "image/gameover.png"
+		},
+		"map": {
+			"type": "image",
+			"width": 512,
+			"height": 512,
+			"path": "image/map.png"
+		},
+		"title": {
+			"type": "image",
+			"width": 256,
+			"height": 112,
+			"path": "image/title.png"
+		},
+		"background": {
+			"type": "image",
+			"width": 512,
+			"height": 384,
+			"path": "image/background.png"
+		},
+		"glyph_area": {
+			"type": "text",
+			"path": "text/glyph_area.json"
+		},
+		"map_data": {
+			"type": "text",
+			"path": "text/map_data.json"
+		},
+		"version": {
+			"type": "text",
+			"path": "text/version.txt"
+		},
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"score": {
+			"type": "image",
+			"width": 144,
+			"height": 48,
+			"path": "image/score.png"
+		},
+		"GameCore": {
+			"type": "script",
+			"path": "script/GameCore.js",
+			"global": true
+		},
+		"girl": {
+			"type": "image",
+			"width": 32,
+			"height": 32,
+			"path": "image/girl.png"
+		},
+		"girl_miss": {
+			"type": "image",
+			"width": 32,
+			"height": 32,
+			"path": "image/girl_miss.png"
+		},
+		"Interfaces": {
+			"type": "script",
+			"path": "script/Interfaces.js",
+			"global": true
+		},
+		"PlayerCharactor": {
+			"type": "script",
+			"path": "script/PlayerCharactor.js",
+			"global": true
+		},
+		"Models": {
+			"type": "script",
+			"path": "script/Models.js",
+			"global": true
+		}
+	},
+	"environment": {
+		"sandbox-runtime": "2"
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/akashic-tile/lib/Tile.js",
+		"node_modules/@akashic-extension/akashic-tile/lib/index.js"
+	],
+	"moduleMainScripts": {
+		"@akashic-extension/akashic-tile": "node_modules/@akashic-extension/akashic-tile/lib/index.js"
+	}
+}
