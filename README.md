@@ -5,7 +5,7 @@ Akashic自体の詳細は[公式サイト](https://akashic-games.github.io/)を�
 
 ## ライセンス
 画像ファイルは[クリエイティブ・コモンズ 表示 2.1 日本 ライセンス](https://creativecommons.org/licenses/by/2.1/jp/)の下提供されています。
-ソースコードはMIT Licenseの下で公開されています。詳しくは[LISENCE](./LICENSE)をご確認ください。
+ソースコードはMIT Licenseの下で公開されています。詳しくは[LICENSE](./LICENSE)をご確認ください。
 
 ## 利用方法
 
